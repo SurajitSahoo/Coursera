@@ -13,7 +13,7 @@ const Allcourses=()=>
       {title: "Django course", description:"There is a Django course for beginers"},
     ]);
     return (
-        <div className="text-center">
+        <div >
             <h1>All courses</h1>
             <p>List of courses are follows</p>
             {

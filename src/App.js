@@ -27,11 +27,11 @@ function App() {
           <nav/>
         <Header/>
         <Row>
-          <Col md={2}>
+          <Col md={2}className='col2'>
             <Menu/>
           </Col>
 
-          <Col md={10} style={{padding: 20}}>
+          <Col md={10} style={{padding: 10}} >
           <Routes>
             <Route path="/" Component={Home} exact/>
             <Route path="/Add-Courses" Component={Addcourse} exact/>

@@ -4,9 +4,9 @@ const Header=()=>
 {
     return(
         <div >
-            <Card className=" bg-warning" style={{padding: 20}}>
-                <CardBody  >
-                    <h1 className="text-center my-2"><i>Welcome To This Course</i></h1>
+            <Card className="header">
+                <CardBody  className="card">
+                    <h1 className=""><i>Coursera</i></h1>
                 </CardBody>
             </Card>
         
