@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+.bold-text {
+  font-weight: bold; /* or a numeric value like 700 */
+}
+
+.light-text {
+  font-weight: lighter; /* or a numeric value like 300 */
+}
+
